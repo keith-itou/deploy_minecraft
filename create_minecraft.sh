@@ -1,11 +1,11 @@
 #!/bin/bash
 
 # Here you need to specify these parameters
-readonly AZURE_ACCT="rifujita" 
+readonly AZURE_ACCT="keith" 
 readonly ACI_RES_LOC="japaneast"
-readonly ACI_RES_GRP="${AZURE_ACCT}democraft"
+readonly ACI_RES_GRP="${AZURE_ACCT}minecraft"
 readonly ACI_STR_SH_NAME="acishare"
-readonly RCON_PASSWORD="testing"
+readonly RCON_PASSWORD="shuncream"
 readonly ACI_CNT_NAME="${ACI_RES_GRP}-container"
 
 ACI_STR_AN_CAND="${ACI_RES_GRP}$(uuidgen)"
